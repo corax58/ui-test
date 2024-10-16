@@ -1,5 +1,4 @@
-import Image, { StaticImageData } from "next/image";
-import React from "react";
+import Image from "next/image";
 import { BsStarFill } from "react-icons/bs";
 import { Gun } from "../../libs/types";
 
@@ -26,7 +25,10 @@ const GunCard = ({
           </p>
           <p className=" text-xs font-semibold text-white">{score}</p>
         </div>
-        <div className={`rounded-full w-1 h-1 bg-${accentColor}-500`}></div>
+        <div
+          className={`rounded-full size-[6px] bg-${accentColor}-500`}
+          style={{ backgroundColor: accentColor }}
+        ></div>
       </div>
     </div>
   );

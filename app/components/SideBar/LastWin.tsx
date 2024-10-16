@@ -1,6 +1,5 @@
-import React from "react";
-import Image from "next/image";
 import { avatar_1, knife_1 } from "@/public/images";
+import Image from "next/image";
 import { FaUser } from "react-icons/fa";
 
 const LastWin = () => {
