@@ -17,10 +17,10 @@ const MessageBox = () => {
             type="range"
             name=""
             id=""
-            className=" h-0.5 bg-red-500 w-1/2"
+            className=" h-0.5 bg-red-500 w-1/2 "
           />
         </div>
-        <button className=" size-10 rounded-xl flex justify-center items-center bg-sky-600">
+        <button className=" p-2 rounded-xl flex justify-center items-center bg-sky-600">
           <HiPaperAirplane className=" text-white" />
         </button>
       </div>
